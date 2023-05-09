@@ -1,6 +1,6 @@
   :root{
-    --azul-a: #103050;
-    --azul-b: #303080;
+    --negro-claro: #303030;
+    --negro-oscuro: #151520;
 
     --negrisimo: #101010;
 
@@ -68,8 +68,8 @@
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--azul-b);
-    border-bottom: solid 2px var(--azul-b);
+    background-color: var(--negro-claro);
+    border-bottom: solid 2px var(--negro-claro);
   }
 
   .nav .nav-brand,
@@ -95,7 +95,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    background-color: var(--azul-a);
+    background-color: var(--negro-oscuro);
     align-items: center;
     justify-content: center;
   }
@@ -110,7 +110,7 @@
     width: 250px;
     height: 380px;
     border-radius: 20px;
-    background-color: var(--azul-b);
+    background-color: var(--negro-claro);
   }
 
   .card img{
@@ -136,6 +136,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    background-color: var(--azul-b);
-    border-top: solid 2px var(--azul-a);
+    background-color: var(--negro-claro);
+    border-top: solid 2px var(--negro-oscuro);
   }
