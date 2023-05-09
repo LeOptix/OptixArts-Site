@@ -97,15 +97,15 @@
   }
 
   .card{
-    width: 200px;
+    width: 250px;
     height: 350px;
     border-radius: 20px;
   }
 
   .card img{
     border-radius: 20px 20px 0px 0px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
   }
 
