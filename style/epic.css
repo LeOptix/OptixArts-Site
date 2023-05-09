@@ -19,7 +19,7 @@
 
   .alert-medium,
   .alert-normal{
-    width: 60%;
+    width: 70%;
     border-radius: 10px;
     border: solid 2px #FFFFFF30;
     text-align: center;
@@ -54,7 +54,7 @@
     padding: 10px;
     align-items: center;
     justify-content: space-around;
-    width: 90%;
+    width: 95%;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -97,15 +97,15 @@
 
   .card{
     background-color: #151515;
-    width: 260px;
-    height: 380px;
+    width: 300px;
+    height: 500px;
     border-radius: 20px;
   }
 
   .card img{
     border-radius: 20px 20px 0px 0px;
-    width: 260px;
-    height: auto;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
   }
 
@@ -121,7 +121,7 @@
     padding: 10px;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
