@@ -82,6 +82,8 @@
     margin-right: auto;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
+    background-color: #101010;
     align-items: start;
     justify-content: start;
   }
