@@ -96,14 +96,14 @@
 
   .card{
     background-color: #151515;
-    width: 280px;
-    height: 400px;
+    width: 260px;
+    height: 380px;
     border-radius: 20px;
   }
 
   .card img{
     border-radius: 20px 20px 0px 0px;
-    width: 280px;
+    width: 260px;
     height: auto;
     object-fit: cover;
   }
