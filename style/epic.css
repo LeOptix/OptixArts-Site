@@ -59,7 +59,7 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #303080;
-    border-bottom: solid 2px #101010;
+    border-bottom: solid 2px #101030;
   }
 
   .nav .nav-brand,
@@ -85,7 +85,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #101010;
+    background-color: #101030;
     align-items: center;
     justify-content: center;
   }
@@ -98,7 +98,7 @@
 
   .card{
     width: 250px;
-    height: 350px;
+    height: 380px;
     border-radius: 20px;
   }
 
@@ -126,5 +126,5 @@
     margin-right: auto;
     margin-top: 10px;
     background-color: #303080;
-    border-top: solid 2px #101010;
+    border-top: solid 2px #101030;
   }
