@@ -1,5 +1,15 @@
+  :root{
+    --azul-a: #103050;
+    --azul-b: #303080;
+
+    --negrisimo: #101010;
+
+    --aviso-medio: #FF3010;
+    --aviso-normal: #1030FF;
+  }
+  
   body{
-    background-color: #103050;
+    background-color: var(--negrisimo);
     color: #FFF;
     font-family: 'Work Sans';
   }
@@ -41,11 +51,11 @@
   }
 
   .alert-medium{
-    background-color: #FF5010;
+    background-color: var(--aviso-medio);
   }
 
   .alert-normal{
-    background-color: #105090;
+    background-color: var(--aviso-normal);
   }
 
   .nav{
@@ -58,8 +68,8 @@
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #303080;
-    border-bottom: solid 2px #101030;
+    background-color: var(--azul-b);
+    border-bottom: solid 2px var(--azul-b);
   }
 
   .nav .nav-brand,
@@ -85,7 +95,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #101030;
+    background-color: var(--azul-a);
     align-items: center;
     justify-content: center;
   }
@@ -100,6 +110,7 @@
     width: 250px;
     height: 380px;
     border-radius: 20px;
+    background-color: var(--azul-b);
   }
 
   .card img{
@@ -125,6 +136,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    background-color: #303080;
-    border-top: solid 2px #101030;
+    background-color: var(--azul-b);
+    border-top: solid 2px var(--azul-a);
   }
